@@ -24,6 +24,13 @@ OpenAI created [Gym](https://github.com/Farama-Foundation/Gymnasium) to standard
 LlamaGym seeks to simplify fine-tuning LLM agents with RL. Right now, it's a single `Agent` abstract class that handles all the issues mentioned above, letting you quickly iterate and experiment with agent prompting & hyperparameters across any Gym environment.
 
 ## Usage
+Requires pipx and poetry to install 
+
+pipx installation: https://pipx.pypa.io/stable/installation/
+
+poetry: https://python-poetry.org/docs/
+
+
 Fine-tuning an LLM-based agent to play in a Gym-style environment with RL has never been easier! Once you install LlamaGym...
 ```
 pip install llamagym
